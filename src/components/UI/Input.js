@@ -1,6 +1,5 @@
 import classes from './Input.module.css' 
 import React from 'react'
-import { Component } from 'react/cjs/react.production.min'
 
 const Input = (props) => {
   return (
