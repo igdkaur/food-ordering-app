@@ -1,3 +1,7 @@
+import classes from './AvailableMeals.module.css';
+import MealItem from './MealItem/MealItem'
+
+
 const DUMMY_MEALS = [
   {
     id: 'm1',
@@ -25,13 +29,14 @@ const DUMMY_MEALS = [
   },
 ];
 
-
 const AvailableMeals = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  const mealsList = DUMMY_MEALS.map((meal) => <MealItem name = {meal.name} />);
 
-export default AvailableMeals
+  return (
+    <section className={classes.meals}>
+      <ul>{mealsList}</ul>
+    </section>
+  );
+};
+
+export default AvailableMeals;
