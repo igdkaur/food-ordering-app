@@ -3,7 +3,7 @@ import React from 'react'
 const MealItem = (props) => {
   return (
     <>
-      <ul>{props.name}</ul>
+      <li>{props.name}</li>
     </>
   )
 }
