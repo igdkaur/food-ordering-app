@@ -26,6 +26,13 @@
 		"body": "className = {classes.$0} ",
 		"description": "inbuilt css class use"
 	},
+
+	"useState": {
+		"prefix": ["us"],
+		"body": "const [${CLIPBOARD},set$1${CLIPBOARD}] = useState($0)",
+		"description": "useState hook"
+	},
+	
 	
 		"For Loop": {
 			"prefix": ["for", "for-const"],
