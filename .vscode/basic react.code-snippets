@@ -32,6 +32,18 @@
 		"body": "const [${CLIPBOARD},set$1${CLIPBOARD}] = useState($0)",
 		"description": "useState hook"
 	},
+
+	"arrow function": {
+		"prefix": ["af"],
+		"body": ["const ${CLIPBOARD} = () => { ", " return ( ","\t<div>", "\t\t$0", "\t</div>",")}"],
+		"description": "arrow function"
+	},
+
+	"arrow function  handler": {
+		"prefix": ["haf"],
+		"body":  ["const ${CLIPBOARD} = () => {","\t\t$0", "}"],
+		"description": "arrow function"
+	},
 	
 	
 		"For Loop": {

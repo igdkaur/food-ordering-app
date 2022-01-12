@@ -6,13 +6,16 @@ import Cart from './components/Cart/Cart';
 
 function App() {
 
-const [showCart,setShowCart] = useState(false);
+const [cartIsShown,setCartIsShown] = useState(false);
 
+const handleCartShow = () => {
+  setCartIsShown(true)
+}
 
   return (
     <>
-    {showCart && <Cart/>}
-      <Header />
+    {cartIsShown && <Cart/>}
+      <Header onShowCart = {handleCartShow}/>
       <main>
         <Meals />
       </main>
