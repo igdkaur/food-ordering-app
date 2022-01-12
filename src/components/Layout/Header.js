@@ -1,26 +1,22 @@
-import React from 'react'
-import classes from './Header.module.css'
-import mealsImg from '../../assets/meals.jpg' // .jpg rqrd
-import HeaderCartButton from './HeaderCartButton'
+import { Fragment } from 'react';
 
+import HeaderCartButton from './HeaderCartButton';
+import mealsImage from '../../assets/meals.jpg';
+import classes from './Header.module.css';
 
-const Header = () => {
-  
+const Header = (props) => {
   return (
-    <>
+    <Fragment>
       <header className={classes.header}>
-        <h1> Wine & Dine </h1>
-        <HeaderCartButton/>
+        <h1>ReactMeals</h1>
+        <HeaderCartButton />
       </header>
       <div className={classes['main-image']}>
-        <img src = {mealsImg} alt= "delicious food"/> 
+        <img src={mealsImage} alt='good food' />
       </div>
-    </>
-  )
-}
+    </Fragment>
+  );
+};
 
-export default Header
-
-
-
+export default Header;
 
