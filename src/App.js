@@ -12,10 +12,14 @@ const handleCartShow = () => {
   setCartIsShown(true)
 }
 
+const handleCartClose = () => {
+    setCartIsShown(false)
+}
+
   return (
     <>
-    {cartIsShown && <Cart/>}
-      <Header onShowCart = {handleCartShow}/>
+    {cartIsShown && <Cart onClose = {handleCartClose}/>}
+      <Header onShowCart = {handleCartShow} />
       <main>
         <Meals />
       </main>
@@ -29,3 +33,4 @@ export default App;
 
 // close by default -
 // render conditionally
+// close on close button click
