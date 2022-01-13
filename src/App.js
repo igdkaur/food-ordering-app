@@ -31,6 +31,7 @@ export default App;
 
 // open cart only when your cart clicked
 
-// close by default -
-// render conditionally
-// close on close button click
+// 1. close by default -
+// 2. render conditionally
+// 3. close on close button click
+// 4. close on backdrop click
