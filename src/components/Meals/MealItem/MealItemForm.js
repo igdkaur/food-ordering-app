@@ -13,7 +13,7 @@ const MealItemForm = () => {
       const enteredAmount = amountInputRef.current.value;
       const enteredAmountNumber = +enteredAmount;
 
-      
+      props.onAddToCart(enteredAmountNumber)
   }
 
   return (
