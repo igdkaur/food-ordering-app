@@ -21,13 +21,13 @@ const HeaderCartButton = (props) => {
 
     setBtnIsHigh(true);
 
-    setTimeout(()=> {
+    const timer = setTimeout(()=> {
       setBtnIsHigh(false);
     }, 300)
 
-    // return () => {
-    //   cleanup
-    // }
+    return () => {
+      clearTimeout(timer);
+    }
   }, [items])
 
 
