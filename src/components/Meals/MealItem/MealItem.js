@@ -37,4 +37,4 @@ export default MealItem;
 // see the markup for this 
 // one div to wrap name dscptn price
 // individual divs for name dscptn
-// and another dic for amount and form 
+// and another div for amount and form 

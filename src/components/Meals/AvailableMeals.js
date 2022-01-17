@@ -18,14 +18,14 @@ const DUMMY_MEALS = [
   },
   {
     id: 'm3',
-    name: 'Barbecue Burger',
-    description: 'American, raw, meaty',
+    name: 'Chicken Tikka Masala',
+    description: 'meaty... packed with flavor',
     price: 12.99,
   },
   {
     id: 'm4',
-    name: 'Green Bowl',
-    description: 'Healthy...and green...',
+    name: 'Sarson Da Saag',
+    description: 'Mustard greens served with makki Di Roti',
     price: 18.99,
   },
 ];
