@@ -6,7 +6,8 @@ import { useContext,useState } from 'react';
 import Checkout from './Checkout';
 
 const Cart = (props) => {
-  const [isOrdered, setIsOrdered] =useState(false)
+
+  const [isOrdered, setIsOrdered] =useState(false)  
 
   const cartCtx = useContext(CartContext); 
 
