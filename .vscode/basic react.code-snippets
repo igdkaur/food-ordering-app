@@ -15,6 +15,15 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"submit fntn": {
+		"prefix": ["saf"],
+		"body": [	"const ${CLIPBOARD} = (event) => {",
+							"\tevent.preventDefault();",
+							"\t\t$0", 
+							"\t}; "
+						],
+		"description": "onSubmit handle function"
+	},
 
 	 "import classes": {
 		"prefix": ["ic"],
